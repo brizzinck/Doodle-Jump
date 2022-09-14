@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1885340524444993004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885340524444993005}
+  - component: {fileID: 1885340524444993006}
+  m_Layer: 0
+  m_Name: Game levels UI Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1885340524444993005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885340524444993004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.40910178, y: -11.693092, z: -0.2014148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1885340524444993006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885340524444993004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1011ed4437fe8f840af06c1a07bad4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pause: {fileID: 0}
+  _resume: {fileID: 0}
+  _menu:
+  - {fileID: 0}
+  - {fileID: 0}
+  _replay: {fileID: 0}
+  FonPause: {fileID: 0}
+  _audionControll: {fileID: 0}
+  _vibrateControll: {fileID: 0}
+  _continueGame: {fileID: 0}
+  _audioDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  _vibrateDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  _scoreDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  _coinsDisplay:
+  - {fileID: 0}
+  - {fileID: 0}
+  _gameOver: {fileID: 0}
+  _startAudio: {fileID: 8300000, guid: 11cb0705b0b1c304d966d5320bd14153, type: 3}
+  _levelsController: {fileID: 0}
