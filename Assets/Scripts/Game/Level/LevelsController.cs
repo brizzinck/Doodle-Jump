@@ -6,6 +6,7 @@ public class LevelsController : MonoBehaviour
 {
     [SerializeField] private Player _player;
     [SerializeField] private Text[] _levelsDisplay;
+    [SerializeField] private Text _coinsDisplay;
     [SerializeField] Score _score;
     private int _toFinished;
     private bool _finished;
@@ -26,6 +27,7 @@ public class LevelsController : MonoBehaviour
         {
             _levelsDisplay[0].text = "";
             _levelsDisplay[1].text = "";
+            _coinsDisplay.text = "";
             return;
         }
         if (_score.score != 0)

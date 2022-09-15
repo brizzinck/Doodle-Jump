@@ -922,15 +922,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1039267291982087734, guid: ec6e65a61dc7ad24e9bee5aec4f4d0c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.30821264
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1039267291982087734, guid: ec6e65a61dc7ad24e9bee5aec4f4d0c7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.0692242
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1039267291982087734, guid: ec6e65a61dc7ad24e9bee5aec4f4d0c7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.27742088
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1039267291982087734, guid: ec6e65a61dc7ad24e9bee5aec4f4d0c7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -987,6 +987,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 10795231}
+    - target: {fileID: 1457835574885515994, guid: 3bef09470c86e704cb05c2760ca35242, type: 3}
+      propertyPath: _coinsDisplay
+      value: 
+      objectReference: {fileID: 1651959179}
     - target: {fileID: 1457835574885515994, guid: 3bef09470c86e704cb05c2760ca35242, type: 3}
       propertyPath: _levelsDisplay
       value: 
@@ -2107,6 +2111,54 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 617364350, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617364350, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617364350, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 617364350, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305318644540, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305318644540, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305318644540, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305318644540, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305847343809, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305847343809, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305847343809, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7374439305847343809, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7374439307277670153, guid: 95c83fef4db91ee40bbabfc5054b92c2, type: 3}
       propertyPath: m_Name
       value: UICanvas
